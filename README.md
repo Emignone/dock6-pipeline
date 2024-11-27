@@ -4,4 +4,16 @@
 <p align="center">
     <img src="img/meton_logo.png" alt="Logo de mi proyecto" />
 </p>
-Pipeline of how to run DOCK6
+
+
+## Tabla de contenidos
+---
+
+
+- [Descripción y contexto](#descripción-y-contexto)
+- [Guía de usuario](#guía-de-usuario)
+- [Guía de instalación](#guía-de-instalación)
+
+
+---
+
