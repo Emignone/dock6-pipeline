@@ -65,4 +65,14 @@ showbox < box.in
 ```
 
 ## 4. Grid
+Para calcular el grid, tambien se necesita un archivo input llamado "grid.in", que consta de los siguentes campos:
+```
+
+```
+
+## Ultimos pasos
+Para poder correr el docking, es necario preparar la base de datos, con eso nos referimos a dividirnla en N cores, Agregar IX a las moleculas y dividiro todo en diferentes carpetas. <br>
+Esos pasos los podran encontrar en el siguiente archivo: [Preparacion de BD](Modulo_1.md)
+
+## 5. Correr el docking
 
