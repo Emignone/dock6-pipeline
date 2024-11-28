@@ -17,7 +17,7 @@ Luego de este paso veran lo siguiente:<br>
 <p align="center"> 
 </p>
 <p align="center">
-    <img src="dock6-pipeline/img/adt.png" alt="img" />
+    <img src="imgadt.png" alt="img" />
 </p>
 
 5. Seleccionar spacing = 1, completar el centro de masa y ajustar las coordenadas x,y,z hasta que la caja tenga un tamaño aceptable. (siempre el ligando dentro de la misma)
