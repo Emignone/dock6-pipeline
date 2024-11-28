@@ -5,7 +5,7 @@ La superficie se puede generar con Chimera. <br>
 **b.** Actions > Surface > Show <br>
 **c.** Tools > ASteructure editing > write DMS <br>
 <br>
-output: file "surface.dms"
+output: file "surface.dms"<br>
 ***Importante***<br>
 Si el receptor no se preparo con Chimera, se va a tener que editar el archivo surface.dms de la siguiente manera: <br>
 ```Python
@@ -38,7 +38,24 @@ Luego, se debe correr el siguiente comando en consola:
 ```
 insph
 ```
+**paso 2**<br>
+Una vez obtenidas las esferas en el archivo *"spheres.sph"*, es necesatrio solo quedarson con el cluster de esferas que estaa cerca del sitio de union.<br>
+Para eso, lo que debemos hacer es correr el siguiente comando:
+```
+sphere_selector spheres.sph path/al/ligando.mol2 10.0
+```
+En este caso, se uso radio r = 10.0 A, este valor se peude cambiar. Solemos usar 10.0.
 
 ### 3. Box
+Ahora hay que calcular la caja que va a delimitar el espacio de trabajo, para ello, vamos a necesitar 3 coordenadas *(x,y,z)* del centro de gravedad y el tamaño de 3 lados. Todo eso se va a volcar en el archivo *"box.in"*:
+```
+N
+U
+-8.58518227, -6.39779485, 55.4131 #Poner las coordenadas del centro de graved
+23 23 28 # Poner el tamaño de los lados
+box.pdb #Nombre del file output
+```
+¿Donde conseguir las coordenadas? Se puede usar AUtoDockTools, y seleccionar para hacer una grid. (No olvidar poner spacing = 1)
+
 
 ### 4. Grid
