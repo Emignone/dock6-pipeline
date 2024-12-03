@@ -1,5 +1,5 @@
 # preparing files
-Para poder correr Dock 6, se nesecitan tanto un file del receptor como el ligabndo (preferentemente el cristalizado en PDB) en formato **.mol2**
+Para poder correr Dock 6, se nesecitan tanto un file del receptor como el ligando (preferentemente el cristalizado en PDB) en formato **.mol2**
 
 ## Hay 2 opciones:
 1. **Preparar los archivos con ICM:**<br>
