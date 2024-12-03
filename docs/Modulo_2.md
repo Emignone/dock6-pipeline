@@ -94,7 +94,7 @@ grid -i grid.in -o grid.out
 Los 3 archivos que genera si funciono bien son: *grid.out, grid.bmp y grid.nrg*
 ## Ultimos pasos
 Para poder correr el docking, es necesario preparar la base de datos, con eso nos referimos a dividirnla en N cores, Agregar IX a las moleculas y dividiro todo en diferentes carpetas. <br>
-Esos pasos los podran encontrar en el siguiente archivo: [Preparacion de BD](Modulo_1.md)
+Esos pasos los podran encontrar en el siguiente archivo: [Preparacion de BD](BD.md)
 
 ## 5. Correr el docking
 
