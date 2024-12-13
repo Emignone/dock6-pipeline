@@ -11,8 +11,8 @@ En este repositorio van a encontrar como prepara los archivos para correr dock6,
 
 
 - [Preparacion de datos](docs/1_Receptor_and_ligand_prep.md)
-- [Guía de usuario](#guía-de-usuario)
-- [Guía de instalación](#guía-de-instalación)
+- [Pipeline general](docs/2_main_pipeline_DOCK6.md)
+- [Post procesamiento](docs/3_Post_Procesamiento.md)
 
 
 ---
